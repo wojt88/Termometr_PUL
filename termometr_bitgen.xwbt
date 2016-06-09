@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\termometr_212467\termometr.ncd
+OUTFILE=F:\termometr_212467\termometr.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=F:\termometr_212467
+LICENSE=WebPack
+USER_INFO=211101413_0_0_556

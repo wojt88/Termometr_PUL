@@ -1,0 +1,45 @@
+
+
+NET "a_to_g[6]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[5]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[4]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[3]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[2]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[1]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "dot" IOSTANDARD = LVCMOS33;
+NET "onewire" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+
+
+NET "anody[3]" IOSTANDARD = LVCMOS33;
+NET "anody[2]" IOSTANDARD = LVCMOS33;
+NET "anody[1]" IOSTANDARD = LVCMOS33;
+NET "anody[0]" IOSTANDARD = LVCMOS33;
+
+
+NET "clk" LOC = C9;
+NET "reset" LOC = L13;
+NET "dot" LOC = B16;
+NET "onewire" LOC = C7;
+
+
+NET "reset" PULLUP;
+
+
+NET "a_to_g[6]" LOC = A13;
+NET "a_to_g[5]" LOC = B13;
+NET "a_to_g[4]" LOC = A14;
+NET "a_to_g[3]" LOC = B14;
+NET "a_to_g[2]" LOC = C14;
+NET "a_to_g[1]" LOC = D14;
+NET "a_to_g[0]" LOC = A16;
+NET "anody[3]" LOC = E13;
+NET "anody[2]" LOC = C4;
+NET "anody[1]" LOC = B11;
+NET "anody[0]" LOC = A11;
+
+# PlanAhead Generated IO constraints 
+
+NET "onewire" PULLUP;
